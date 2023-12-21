@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  body{
+      background: rgba(77, 109, 121, 0.965)
+      color(#fff red green blue)
+  }
+  #header{
+      width: 100%;
+      height: 100vh;
+      background-image: url(images/NSA\ Banner.png);
+      background-size: cover;
+      background-position: cover;
+  }
+  .container{
+      padding:10px 10%;
+  }
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;  
+  }
+  
+  .logo{
+      width: 200px;
+  }
+  nav ul li{
+      display: inline-block;
+      list-style: none;
+      margin: 10px 20px;
+  }
+  nav ul li a{
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-size: 16px;
+      position: relative;
+  }
+  nav ul li a::after{
+      content: '';
+      width: 0%;
+      height: 3px;
+      background: rgb(222, 158, 136);
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      transition: 0.5s;
+  }
+  nav ul li a:hover::after{
+      width: 100%;
+  }
+  .header-text{
+      margin-top: 15%;
+      font-size: 20px;
+      color: #fff;
+      padding-left: 20%;
+  }
+  .header-text h1{
+      font-size: 60px;
+      margin-top: 20px;
+  }
+  .header-text span{
+      color: rgb(222, 158, 136);
+  }
+
+ #studynav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 236, 236);
+
+ } 
+ #overview{
+    display: flex;
+    align-items: center;
+    
+    background-color: #ceefff;
+    font-size: 14px;
+
+ } 
+ .text{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+ } 
+ h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+ }
+ h2{
+    font-size:  20px;
+    margin-left: 70px;
+ }
+ p{
+    font-size: 14px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+.container-fluid{
+    color: #000000;
+    background-color: #cee1ef;
+}
+h1.empathize{
+    background-color: #4569AE;
+    margin-bottom: 5%;
+    color: #fff;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h1.userresearch{
+    font-size: 30px;
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.col-sm img{
+    width: 100%;
+}
+h1.proto{
+    font-size: 30px;
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1.data{
+    font-size: 30px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.map{
+    width: 600px;
+    place-items: center;
+    margin: 0 auto;
+}
+h1.survey{
+    font-size: 30px;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1.empathy{
+    font-size: 30px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1.userpersona{
+    font-size: 30px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.persona{
+    width: 600px;
+    place-items: center;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+/* ----------define----------------- */
+
+
+#define{
+    background-color: #fff;
+}
+
+
+h1.define{
+    background-color: #4569AE;
+    margin-bottom: 5%;
+    color: #fff;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h1.userinsight{
+    font-size: 30px;
+    color: rgb(169, 89, 63);
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.col-sm img{
+    width: 100%;
+}
+h2.problemstatement{
+    font-size: 30px;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1.prioritymatrix{
+    font-size: 30px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1.journey{
+    font-size: 30px;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1.story{
+    font-size: 30px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.storyboard{
+    width: 800px;
+    place-items: center;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+/* ----------ideate----------------- */
+
+h1.ideate{
+    background-color: #4569AE;
+    margin-bottom: 5%;
+    color: #fff;
+}
+h1.userflow{
+    font-size: 30px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.flow{
+    width: 800px;
+    place-items: center;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+h1.competitor{
+    font-size: 30px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/* ----------prototype----------------- */
+h1.prototype{
+    background-color: #4569AE;
+    margin-bottom: 5%;
+    color: #fff;
+}
+h1.sketches{
+    font-size: 35px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.lowfi{
+    width: 800px;
+    place-items: center;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+h1.hifi{
+    font-size: 35px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.hifi{
+    width: 800px;
+    place-items: center;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+h1.usertesting{
+    background-color: #4569AE;
+    margin-bottom: 5%;
+    color: #fff;
+}
+h1.testing{
+    font-size: 35px;
+    color: #4569AE;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+
+
+ 
+    
+   
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/*--------------css for small screens-------- */
+nav .fas{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    #header{
+        background:url(images/NSA\ Banner.png);
+    }
+    .header-text{
+        margin-top: 30%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+
+    }
+    nav .fas{
+        display: block;
+        font-size: 25px;
+        background-color: #fff;
+    }
+    nav ul{
+        background: #194c6d;
+        position:fixed;
+        top:0;
+        right:-200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .sub-title{
+        font-size: 30px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 12px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .title{
+        font-size: 30px;
+    }
+
+}
